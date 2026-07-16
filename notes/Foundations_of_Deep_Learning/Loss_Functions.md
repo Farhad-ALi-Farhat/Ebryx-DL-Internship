@@ -43,16 +43,19 @@ Mean Squared Error is primarily used for **regression problems**, where the targ
 It calculates the average of the squared differences between the actual and predicted values.
 
 ## Formula
-
+$$
 \[
 \text{MSE}=\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2
 \]
+$$
 
 Where:
 
+$$
 - \(y_i\) = Actual value
 - \(\hat{y}_i\) = Predicted value
 - \(n\) = Number of samples
+$$
 
 ---
 
@@ -84,9 +87,11 @@ Suppose the actual and predicted values are:
 
 ### Step 3: Average
 
+$$
 \[
 MSE=\frac{4+4+25}{3}=11
 \]
+$$
 
 The **MSE = 11**.
 
@@ -142,14 +147,18 @@ Used for **binary classification**, where there are only two classes (e.g., spam
 
 ## Formula
 
+$$
 \[
 L = -\left(y\log(\hat{y}) + (1-y)\log(1-\hat{y})\right)
 \]
+$$
 
 Where:
 
+$$
 - \(y\) = Actual label (0 or 1)
 - \(\hat{y}\) = Predicted probability
+$$
 
 ---
 
@@ -181,9 +190,11 @@ Used for **multi-class classification**, where there are more than two classes (
 
 The formula is:
 
+$$
 \[
 L=-\sum y_i\log(\hat{y}_i)
 \]
+$$
 
 This loss function is typically used with the **Softmax activation function**, which converts model outputs into probabilities that sum to 1.
 
