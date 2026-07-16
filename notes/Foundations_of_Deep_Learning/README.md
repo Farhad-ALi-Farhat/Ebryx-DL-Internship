@@ -13,19 +13,6 @@ The notes cover the fundamental concepts of neural networks, deep learning workf
 - Forward and Backward Propagation
 - Overfitting, Underfitting, and Regularization
 
-## Folder Structure
-
-```text
-deep-learning/
-├── README.md
-├── 01_Intro_to_Deep_Learning_and_Neural_Networks.md
-├── 02_Neuron_Weights_Bias_Activation_Functions.md
-├── 03_Loss_Functions.md
-├── 04_Optimizers.md
-├── 05_Forward_and_Backward_Propagation.md
-└── 06_Overfitting_Underfitting_Regularization.md
-```
-
 ## Learning Objectives
 
 By completing these notes, you will understand:
