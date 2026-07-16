@@ -51,11 +51,9 @@ $$
 
 Where:
 
-$$
 - \(y_i\) = Actual value
 - \(\hat{y}_i\) = Predicted value
 - \(n\) = Number of samples
-$$
 
 ---
 
@@ -155,10 +153,8 @@ $$
 
 Where:
 
-$$
 - \(y\) = Actual label (0 or 1)
 - \(\hat{y}\) = Predicted probability
-$$
 
 ---
 
