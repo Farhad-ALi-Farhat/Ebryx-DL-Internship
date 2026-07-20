@@ -110,5 +110,3 @@ The combined **Dropout + L2 Regularization** model achieved the best overall per
 
 This project demonstrated the complete workflow of building a neural network for tabular data classification. Starting with a baseline MLP, different regularization techniques were applied to improve model generalization. While the baseline model achieved strong performance, combining **Dropout** and **L2 Regularization** produced the highest test accuracy and ROC-AUC score, highlighting the effectiveness of regularization techniques in reducing overfitting and improving predictive performance.
 
----
-**Part of the Ebryx Machine Learning Internship project series.**
