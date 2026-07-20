@@ -153,8 +153,7 @@ Continue until the filter has scanned the whole image.
 For an input image \(I\) and filter \(K\), the convolution output is
 
 $$
-S(i,j)
-=
+S(i,j) =
 \sum_m
 \sum_n
 I(i+m,j+n)
