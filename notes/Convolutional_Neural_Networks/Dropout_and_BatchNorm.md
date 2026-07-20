@@ -225,8 +225,8 @@ $$
 
 where:
 
-- \(m\) = batch size
-- \(x_i\) = activation value
+- $\(m\)$ = batch size
+- $\(x_i\)$ = activation value
 
 ---
 
@@ -251,7 +251,7 @@ $$
 
 where:
 
-- \(\epsilon\) is a very small positive value added to avoid division by zero.
+- $\(\epsilon\)$ is a very small positive value added to avoid division by zero.
 
 ---
 
@@ -259,8 +259,8 @@ where:
 
 Instead of always producing normalized values, Batch Normalization learns two parameters:
 
-- Scale (\(\gamma\))
-- Shift (\(\beta\))
+- Scale $(\(\gamma\))$
+- Shift $(\(\beta\))$
 
 The final output is
 
@@ -366,7 +366,7 @@ Some architectures use different ordering, but **Convolution → Batch Normaliza
 | Prevents overfitting | Stabilizes training |
 | Randomly disables neurons | Normalizes activations |
 | Active only during training | Uses batch statistics during training and moving averages during inference |
-| No learnable parameters | Learns scale (\(\gamma\)) and shift (\(\beta\)) |
+| No learnable parameters | Learns scale $(\(\gamma\))$ and shift $(\(\beta\))$ |
 | Mainly a regularization technique | Mainly an optimization technique (with some regularization effect) |
 
 ---
@@ -426,6 +426,6 @@ Output
 - The **dropout rate** determines the fraction of neurons that are temporarily deactivated.
 - During inference, dropout is disabled, and all neurons are used.
 - **Batch Normalization** normalizes activations within each mini-batch, making training faster and more stable.
-- Batch Normalization learns a scale (\(\gamma\)) and shift (\(\beta\)) after normalization.
+- Batch Normalization learns a scale $(\(\gamma\))$ and shift $(\(\beta\))$ after normalization.
 - A common CNN block is **Convolution → Batch Normalization → ReLU → Pooling**.
 - Modern CNNs often use **Batch Normalization** throughout the network and **Dropout** mainly in the fully connected (Dense) layers.
