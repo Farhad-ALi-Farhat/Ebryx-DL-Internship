@@ -29,9 +29,7 @@ $$
 A fully connected layer with 100 neurons would require:
 
 $$
-224 \times 224 \times 3 \times 100
-=
-15,052,800
+224 \times 224 \times 3 \times 100 = 15,052,800
 $$
 
 weights.
